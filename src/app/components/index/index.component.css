@@ -1,0 +1,19 @@
+.carousel {
+  margin-top: 93px;
+}
+.carousel-inner img {
+  width: 100%;
+  height: 85vh;
+}
+.carousel-caption {
+  position: absolute;
+  top: 0;
+  right: 15%;
+  left: 15%;
+}
+.carousel-caption h3,
+p {
+  color: #100249;
+  font-size: 30px;
+  font-weight: bolder;
+}

@@ -1,0 +1,29 @@
+.col-6 {
+  height: 100vh;
+}
+.image {
+  height: 100vh;
+  background: url(../../../../assets/images/login.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center right;
+}
+h1 {
+  color: #100249;
+}
+form {
+  width: 70%;
+  margin: auto;
+}
+.form-control {
+  border: 2px solid #17a2b8;
+}
+.route {
+  display: flex;
+}
+.route a {
+  padding: 0rem 1rem;
+  font-weight: bold;
+  color: #17a2b8;
+  text-decoration: none;
+}

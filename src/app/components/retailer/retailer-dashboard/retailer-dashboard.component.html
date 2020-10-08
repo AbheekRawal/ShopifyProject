@@ -1,0 +1,88 @@
+<app-admin-nav></app-admin-nav>
+<div class="container-fluid">
+  <div class="container welcomeAdmin shadow">
+    <img
+      src="../../../../assets/images/admin.png"
+      class="rounded-circle mr-4"
+      width="10%"
+    />
+    <h3>Welcome retailerName</h3>
+  </div>
+  <div class="container addRegisterForm shadow">
+    <h4 class="text-center mt-3 mb-4">Enter Product Details</h4>
+    <form>
+      <div class="form-row">
+        <div class="col">
+          <label for="pName">Product Name</label>
+          <input
+            type="text"
+            class="form-control"
+            id="name"
+            placeholder="Enter Product Name"
+            name="name"
+          />
+        </div>
+        <div class="col">
+          <label for="pPrice.">Product Price</label>
+          <input
+            type="number"
+            class="form-control"
+            placeholder="Product Price"
+            name="phone"
+          />
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="col">
+          <label for="pBrand">Product Brand</label>
+          <input
+            type="text"
+            class="form-control"
+            id="brand"
+            placeholder="Enter Pruct Brand"
+            name="brand"
+          />
+        </div>
+        <div class="col">
+          <label for="cat">Product Category</label>
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Enter Category"
+            name="cat"
+          />
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="col">
+          <label for="quantity">Quantity</label>
+          <input
+            type="number"
+            class="form-control"
+            id="brand"
+            placeholder="Enter Quantity"
+            name="quan"
+          />
+        </div>
+        <div class="col">
+          <div class="custom-file mt-4">
+            <label for="files">Select images:</label>
+            <input
+              type="file"
+              class="custom-file-input"
+              accept="image/*"
+              id="customFile"
+              multiple
+            />
+            <label class="custom-file-label" for="customFile"
+              >Choose Images</label
+            >
+          </div>
+        </div>
+      </div>
+      <button type="submit" class="btn btn-block mt-4 btn-outline-info">
+        Register Retailer
+      </button>
+    </form>
+  </div>
+</div>

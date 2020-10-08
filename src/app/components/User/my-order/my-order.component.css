@@ -1,0 +1,27 @@
+.container-fluid {
+  min-height: 100vh;
+  background-color: #aaccfa;
+  padding: 8rem 0rem 2rem;
+}
+.container {
+  background-color: #fff;
+  padding: 16px;
+  border-radius: 8px;
+  margin: 16px auto;
+}
+hr {
+  border: 1px solid #aaccfa;
+}
+.proDesc {
+  display: flex;
+}
+.proDesc h2 {
+  color: #100249;
+}
+.proDesc h4 {
+  color: #100249;
+  font-weight: bold;
+}
+.proDesc p {
+  color: grey;
+}

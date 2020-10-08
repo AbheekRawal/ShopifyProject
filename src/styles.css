@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Corben&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Corben", sans-serif;
+  /* background-color: #aaccfa; */
+  /* color: #100249; */
+  /* button: #0baf7b; */
+}

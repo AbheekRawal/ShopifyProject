@@ -1,0 +1,93 @@
+<nav class="navbar navbar-expand-md navbar-dark fixed-top">
+  <a class="navbar-brand" [routerLink]="['/index']" routerLinkActive="active">
+    <img
+      src="../../../../assets/images/logo.jpg"
+      alt="Logo"
+      style="width: 90px"
+    />
+  </a>
+  <button
+    class="navbar-toggler"
+    type="button"
+    data-toggle="collapse"
+    data-target="#collapsibleNavbar"
+  >
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a
+          class="nav-link"
+          [routerLink]="['/products']"
+          routerLinkActive="active"
+          >Products</a
+        >
+      </li>
+      <li class="nav-item">
+        <a
+          class="nav-link"
+          [routerLink]="['/compare']"
+          routerLinkActive="active"
+          >Compare</a
+        >
+      </li>
+      <!-- Login -->
+      <li class="nav-item dropdown">
+        <a
+          class="nav-link dropdown-toggle"
+          href="#"
+          id="navbardrop"
+          data-toggle="dropdown"
+        >
+          Login
+        </a>
+        <div class="dropdown-menu">
+          <a
+            class="dropdown-item"
+            [routerLink]="['/adminLogin']"
+            routerLinkActive="active"
+            >Admin</a
+          >
+          <a
+            class="dropdown-item"
+            [routerLink]="['/retailerLogin']"
+            routerLinkActive="active"
+            >Retailer</a
+          >
+          <a
+            class="dropdown-item"
+            [routerLink]="['/login']"
+            routerLinkActive="active"
+            >User</a
+          >
+        </div>
+      </li>
+      <!-- Register -->
+      <li class="nav-item dropdown">
+        <a
+          class="nav-link dropdown-toggle"
+          href="#"
+          id="navbardrop"
+          data-toggle="dropdown"
+        >
+          SignUp
+        </a>
+        <div class="dropdown-menu">
+          <a
+            class="dropdown-item"
+            [routerLink]="['/register']"
+            routerLinkActive="active"
+            >User</a
+          >
+          <a
+            class="dropdown-item"
+            [routerLink]="['/retailerRegister']"
+            routerLinkActive="active"
+            >Retailer</a
+          >
+        </div>
+      </li>
+    </ul>
+  </div>
+</nav>

@@ -1,0 +1,29 @@
+.container-fluid {
+  min-height: 100vh;
+  background-color: #aaccfa;
+  padding: 6rem 0rem 2rem;
+}
+.welcomeAdmin {
+  display: flex;
+}
+.container {
+  background-color: #fff;
+  padding: 16px;
+  border-radius: 8px;
+  margin: 16px auto;
+}
+form {
+  width: 50%;
+  margin: auto;
+}
+.custom-file-label {
+  margin-top: 7px;
+}
+.form-control,
+textarea,
+.custom-file-label {
+  border: 2px solid #17a2b8;
+}
+h4 {
+  color: #100249;
+}

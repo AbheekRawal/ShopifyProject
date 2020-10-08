@@ -1,0 +1,85 @@
+<app-user-navbar></app-user-navbar>
+<div class="container-fluid">
+  <div class="container welcomeAdmin shadow">
+    <img
+      src="../../../../assets/images/admin.png"
+      class="rounded-circle mr-4"
+      width="10%"
+    />
+    <h3>Welcome userName</h3>
+  </div>
+  <div class="container shadow">
+    <div class="compare mb-5">
+      <input
+        class="form-control"
+        id="myInput"
+        type="text"
+        placeholder="Compare.."
+      />
+    </div>
+    <div class="row">
+      <div class="col">
+        <label style="width: 82px">Sort By</label>
+        <div class="row">
+          <div class="btn-group btn-group-lg">
+            <div class="btn-group">
+              <button
+                type="button"
+                class="btn btn-info dropdown-toggle"
+                data-toggle="dropdown"
+              >
+                Sort
+              </button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Ascending</a>
+                <a class="dropdown-item" href="#">Descending</a>
+              </div>
+            </div>
+            <button type="button" class="btn btn-info">By Brand</button>
+            <button type="button" class="btn btn-info">By Price</button>
+          </div>
+        </div>
+      </div>
+      <div class="col filterColumn">
+        <label style="width: 64px">Filter</label>
+        <div class="row p-0">
+          <div class="col-3 pr-0">
+            <input type="text" class="form-control" placeholder="Brand Name" />
+          </div>
+          <div class="col-4 pr-0">
+            <input
+              type="number"
+              class="form-control"
+              placeholder="Starting Price"
+            />
+          </div>
+          <div class="col-4 pr-0">
+            <input
+              type="number"
+              class="form-control"
+              placeholder="Ending Price"
+            />
+          </div>
+        </div>
+        <button type="submit" class="btn btn-info btn-block mt-2">
+          Filter
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="productList">
+    <div class="container proDesc shadow">
+      <div class="col-3 productImage shadow">
+        <img src="../../../assets/images/product.jpeg" width="80%" />
+      </div>
+      <div class="col-9">
+        <h2>Product Name</h2>
+        <p>Product Description</p>
+        <h4>₹ (price here)</h4>
+        <button type="button" class="btn btn-outline-info mt-3">
+          Add to Cart
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

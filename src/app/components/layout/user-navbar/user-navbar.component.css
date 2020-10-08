@@ -1,0 +1,13 @@
+nav {
+  background-color: #aaccfa;
+}
+img {
+  border-radius: 8px;
+}
+nav ul li {
+  margin: 0rem 12px;
+}
+nav ul li a {
+  color: #100249;
+  font-weight: 600;
+}
